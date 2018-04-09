@@ -1,0 +1,22 @@
+{
+  "name": "restgcj",
+  "version": "1.0.0",
+  "description": "search users by rank on gcj",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "qualification": "node qualification.js"
+  },
+  "keywords": [
+    "gcj",
+    "nodejs",
+    "jwt"
+  ],
+  "author": "LuaXD",
+  "license": "MIT",
+  "dependencies": {
+    "base-64": "^0.1.0",
+    "jwt-simple": "^0.5.1",
+    "restify": "^7.1.0"
+  }
+}
