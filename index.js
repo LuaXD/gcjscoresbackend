@@ -75,11 +75,20 @@ friendList = function(req, res, next) {
   });
   res.send(ans);
 }
+getProblemIds = function(req, res, next) {
+  res.send({
+    '0000000000007966': 'Saving The Universe Again',
+    '00000000000079cb': 'Trouble Sort',
+    '00000000000079cc': 'Cubic UFO',
+    '0000000000007a30': 'Go, Gopher!'
+  });
+}
 server.get('/countries', getCountries);
 server.get('/similar-users', getSimiliarUser);
 server.get('/country/:name', getByCountry);
 server.get('/', getPage);
 server.post('/friends', friendList);
+server.get('/problemid', getProblemIds);
 server.listen(3000, function() {
   console.log('%s listening at %s', server.name, server.url);
 });
