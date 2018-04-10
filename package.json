@@ -15,8 +15,6 @@
   "author": "LuaXD",
   "license": "MIT",
   "dependencies": {
-    "base-64": "^0.1.0",
-    "jwt-simple": "^0.5.1",
     "restify": "^7.1.0"
   }
 }
