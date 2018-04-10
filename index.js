@@ -77,10 +77,10 @@ friendList = function(req, res, next) {
 }
 getProblemIds = function(req, res, next) {
   res.send({
-    '0000000000007966': 'Saving The Universe Again',
-    '00000000000079cb': 'Trouble Sort',
-    '00000000000079cc': 'Cubic UFO',
-    '0000000000007a30': 'Go, Gopher!'
+    'Saving The Universe Again': '0000000000007966',
+    'Trouble Sort': '00000000000079cb',
+    'Cubic UFO': '00000000000079cc',
+    'Go, Gopher!': '0000000000007a30' 
   });
 }
 server.get('/countries', getCountries);
